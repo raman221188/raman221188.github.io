@@ -2,7 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
+* {
+    border: 2px solid rgb(0,0,0);
+}
 ul li {
     display: flex;
     list-style: none;
@@ -14,6 +16,11 @@ ul li {
     color: #FF00FF;
     font-style: italic;
 }
+.desc {
+    font-style: bold;
+    font-size: 42px;
+    border: 1px thin #FF0000;
+    
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
