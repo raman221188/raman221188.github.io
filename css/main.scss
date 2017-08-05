@@ -11,16 +11,18 @@
  }
 .page-heading {
    display: inline;
-   color: #FF0000;
+   color: #FFFD;
    font-style: italic;
  }
 .desc {
    font-style: bold;
    font-size: 32px;
-   border: 1px groove #FF0000;
+   border: 1px groove #FFF;
    padding-left: 30px;
+   background-color: #FFF;
 }  
 .contact-info {
   font-size: 25px;
   padding-left: 30px; 
+  background-color: #FFF;
 }
