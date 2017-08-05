@@ -7,7 +7,7 @@
    display: inline;
    list-style: none;  
    float: right;
-   padding-left: 100px;
+   padding-left: 300px;
  }
 .page-heading {
    display: inline;
@@ -16,16 +16,18 @@
  }
 .desc {
    font-style: bold;
-   font-size: 32px;
+   font-size: 30px;
    border: 1px groove #FFF;
    padding-left: 30px;
    background-color: #FFF;
 }  
 .contact-info {
-  font-size: 25px;
+  font-size: 20px;
   padding-left: 30px; 
   background-color: #FFF;
 }
 .desc , .contact-info {
   background-image: url("http://www.weekendnotes.com/im/003/03/thai-bliss-massage-day-spa-thai-canberra-childers-11.jpg");
+  background-attachment: fixed;
+ 
 }
