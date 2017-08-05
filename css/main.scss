@@ -4,19 +4,23 @@
 @charset "utf-8";
 
  li {
-    display: inline;
-    list-style: none;  
-    float: right;
-    padding-left: 100px;
+   display: inline;
+   list-style: none;  
+   float: right;
+   padding-left: 100px;
  }
 .page-heading {
-    display: inline;
-    color: #FF0000;
-    font-style: italic;
+   display: inline;
+   color: #FF0000;
+   font-style: italic;
  }
 .desc {
-    font-style: bold;
-    font-size: 32px;
-    border: 1px groove #FF0000;
-    padding: 30px;
+   font-style: bold;
+   font-size: 32px;
+   border: 1px groove #FF0000;
+   padding-left: 30px;
 }  
+.contact-info {
+  font-size: 25px;
+  padding-left: 30px; 
+}
