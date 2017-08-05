@@ -4,12 +4,12 @@
 @charset "utf-8";
 
 ul li {
-    display: inline;
+    display: flex;
     list-style: none;
     
     justify-content: flex-end;
 }
-h1 {
+.page-heading {
     color: #FF0000;
     font-style: italic;
 }
