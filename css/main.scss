@@ -6,7 +6,8 @@
  li {
     display: inline;
     list-style: none;  
-   float: right;
+    float: right;
+    padding-left: 100px;
  }
 .page-heading {
     display: inline;
@@ -15,6 +16,7 @@
  }
 .desc {
     font-style: bold;
-    font-size: 42px;
+    font-size: 32px;
     border: 1px groove #FF0000;
+    padding: 30px;
 }  
