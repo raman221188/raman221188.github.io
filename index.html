@@ -5,18 +5,31 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">Welcome </h1>
+  <div class = "heading" >
+    <img src= "http://www.weekendnotes.com/im/003/03/thai-bliss-massage-day-spa-thai-canberra-childers-11.jpg" />
+  </div>
+  <div class = "NavMenu" >
+    <ul class = "MenuList1 row " >
+      <li>Welcome</li>
+      <li>MENU OF SERVICES</li>
+      <li>LIZ KRIZ</li>
+      <li>THAI MASSAGE</li>
+      <li>CUPPING</li>
+    </ul>
+    <ul class =  "MenuList2" "row">
+      <li>LOTUS ESSENTIAL</li>
+      <li>BOTANICALS</li>
+      <li>NEWS</li>
+      <li>SPECIALS</li>
+      <li>LOCATION</li>
+     <ul>
+    </div>
+       
+      
+      
+      
+      
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
