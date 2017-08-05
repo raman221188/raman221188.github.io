@@ -4,12 +4,13 @@
 @charset "utf-8";
 
 ul li {
-    display: flex;
+    display: inline;
     list-style: none;
-    float: right;
+   
 }
 h1 {
-    color: green;
+    color: #FF0000;
+    font-style: italic;
 }
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
